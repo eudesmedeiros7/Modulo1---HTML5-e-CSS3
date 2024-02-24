@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML</title>
+</head>
+
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video width="200" poster="imagens/vídeo-novo.png" controls >
+        <source src="midia/Limpeza-De-Pele.mp4" type="video/mp4">
+        <source src="midia/Limpeza-De-Pele.webm" type="video/webm">
+        <source src="midia/Limpeza-De-Pele.ogv" type="video/ogv">
+        <!-- widht largura, poster = thumbnail; controls: controle -->
+        <!-- a ordem das sources importa. -->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo vídeo direto do youtube.</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=FwiZbDUyWtbmEaP9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+
+</html>
